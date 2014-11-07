@@ -2,7 +2,7 @@ package utils
 
 import (
 	"testing"
-	"fmt"
+	//"fmt"
 )
 
 
@@ -12,7 +12,7 @@ func TestReadCsv(t *testing.T) {
 
 	go ReadCsv(path, c, true)
 
-	for record := range c {
-		fmt.Println(record)
-	}
+	// for record := range c {
+	// 	fmt.Println(record)
+	// }
 }
